@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "/api",
+  baseURL: "https://real-estate-crm-r697.vercel.app/api",
   headers: { "Content-Type": "application/json" },
 });
 
